@@ -23,5 +23,8 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^9.3.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6"
   }
 }
