@@ -43,7 +43,10 @@ const Header = () => {
 
   }, []);
 
-
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
+  
   return (
     <header className={'fixed-top w-100 ' + (scrollActive ? ' bg-light shadow pt-0' : '')}>
       <div className='container-fluid  '  >
